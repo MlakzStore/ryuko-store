@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #DDDDDD;
+  margin: 0;
+  padding: 0;
+}
+/* body size*/
+.container {
+  padding: 15px;
+}
+
+/* Card container */
+.auth-container {
+  max-width: 400px;              /* matches screenshot width */
+  margin: 25px auto;
+  margin-top: 8px;
+  padding: 15px;
+}
+
+/* Card */
+.auth-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.auth-card h2 {
+  margin: 0 0 5px;
+  text-align: center;
+  font-size: 24px;
+  color: #222;
+}
+
+.auth-card p.subtitle {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.auth-card input {
+  width: 90%;
+  padding: 17px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Gradient button */
+.btn-primary {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #FF5700, #FF1400);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* Links under form */
+.form-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
